@@ -23,12 +23,13 @@ CREATE TABLE Plans(
 pname VARCHAR(20) PRIMARY KEY NOT NULL,
 cost MONEY  NOT NULL,
 payment_frequency INTEGER NOT NULL,
-pregidate DATE);
+);
 
 
 CREATE TABLE Memberships(
 mid INTEGER NOT NULL REFERENCES Members(mid),
 pname VARCHAR(20) NOT NULL REFERENCES Plans(pname),
+pregidate DATE,
 PRIMARY KEY (mid,pname));
 
 
