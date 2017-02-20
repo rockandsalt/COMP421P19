@@ -30,7 +30,7 @@ CREATE TABLE Memberships(
 mid INTEGER NOT NULL REFERENCES Members(mid),
 pname VARCHAR(20) NOT NULL REFERENCES Plans(pname),
 pregidate DATE,
-PRIMARY KEY (mid,pname));
+PRIMARY KEY mid;
 
 
 CREATE TABLE Classes(
@@ -41,8 +41,9 @@ CFirstDAY DATE NOT NULL ,
 CTime TIME NOT NULL,
 CDuration FLOAT NOT NULL,
 CMaxEnroll INTEGER,
-CRoom VARCHAR(10)
- );
+CRoom VARCHAR(10),
+TaughtBy INTEGER NOT NULL REFERENCES Instructors(InstructorID)
+);
 
 
 CREATE TABLE ClassEnroll(
@@ -88,11 +89,12 @@ MId INTEGER REFERENCES Members(mid)
 
 
 CREATE TABLE PaymentInfo(
-carNumber INTEGER PRIMARY KEY,
+cardNumber INTEGER,
 billingAddress TEXT,
 cardtype VARCHAR(10),
 cardowner TEXT,
-Member INTEGER NOT NULL REFERENCES Members(mid)
+Member INTEGER NOT NULL REFERENCES Members(mid),
+PRIMARY KEY (cardNumber, Member)
 );
 
 
