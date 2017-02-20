@@ -31,7 +31,7 @@ payment_frequency INTEGER NOT NULL
 
 
 CREATE TABLE Memberships(
-MemberId INTEGER PRIMARY KEY REFERENCES Members(mid),
+mid INTEGER PRIMARY KEY REFERENCES Members(mid),
 pname VARCHAR(20) NOT NULL REFERENCES Plans(pname),
 pregidate DATE
 );
