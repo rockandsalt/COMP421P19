@@ -71,7 +71,7 @@ CREATE TABLE Qualifications(qname TEXT PRIMARY KEY NOT NULL);
 CREATE TABLE hasQ(
 InID INTEGER NOT NULL REFERENCES Instructors(InstructorID),
 qname TEXT NOT NULL REFERENCES Qualifications(qname),
-qlevel INTEGER CHECK(qlevel >0 AND qlevel<11),
+qlevel INTEGER,
 PRIMARY KEY(InID,qname)
 );
 
