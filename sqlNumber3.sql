@@ -37,25 +37,25 @@ SELECT * FROM Plans;
 
 INSERT INTO Memberships(mid, pname , pregidate)
 VALUES 
-(1, 'Fancy','2011-01-08' );
+('1', 'Fancy','2011-01-08' );
 
 INSERT INTO Memberships(mid, pname , pregidate)
 VALUES 
-(2, 'regular','2011-01-08' );
-
-
-INSERT INTO Memberships(mid, pname , pregidate)
-VALUES 
-(3, 'Fancy','2011-01-08' );
+('2', 'regular','2011-01-08' );
 
 
 INSERT INTO Memberships(mid, pname , pregidate)
 VALUES 
-(4, 'regular','2011-01-08' );
+('3', 'Fancy','2011-01-08' );
 
 
 INSERT INTO Memberships(mid, pname , pregidate)
 VALUES 
-(5, 'regular','2011-01-08' );
+('4', 'regular','2011-01-08' );
+
+
+INSERT INTO Memberships(mid, pname , pregidate)
+VALUES 
+('5', 'regular','2011-01-08' );
 
 SELECT * FROM Memberships;
