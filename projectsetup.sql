@@ -17,7 +17,7 @@ mname TEXT,
 HouseNum INTEGER,
 Street TEXT ,
 City TEXT,
-PostalCode VARCHAR(10),
+PostalCode VARCHAR(20),
 phone VARCHAR(30),
 regidate DATE
 );
