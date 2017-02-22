@@ -1,0 +1,11 @@
+SELECT TOP 10 FROM members;
+SELECT TOP 10 FROM Memberships;
+SELECT TOP 10 FROM classes;
+SELECT TOP 10 FROM classEnroll;
+SELECT TOP 10 FROM instructors;
+SELECT TOP 10 FROM InstructorEnroll;
+SELECT TOP 10 FROM Qualifications;
+SELECT TOP 10 FROM hasQ;
+SELECT TOP 10 FROM Pays;
+SELECT TOP 10 FROM PaymentInfo;
+SELECT TOP 10 FROM Bills;
