@@ -10,4 +10,7 @@ SELECT *
     FROM NumPlan NATURAL JOIN Plans;
 
 
+SELECT pname, payment_frequency * cost AS YearlyIncome
+    FROM Income;
+
 
