@@ -88,3 +88,13 @@ insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$176.93',
 insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$65.53', 'private', 88, '2016-10-09T02:48:54Z');
 insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$88.00', 'premium', 89, '2016-06-03T18:41:07Z');
 insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$167.21', 'premium', 90, '2016-03-06T00:01:38Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$70.01', 'regular', 91, '2016-12-13T10:26:56Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$124.13', 'private', 92, '2016-09-11T12:13:08Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$225.34', 'premium', 93, '2016-09-06T23:58:36Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$136.33', 'private', 94, '2016-04-17T16:30:57Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$92.56', 'regular', 95, '2016-10-20T07:20:38Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$104.80', 'private', 96, '2017-02-12T09:36:14Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$140.87', 'premium', 97, '2016-07-14T02:07:28Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$91.12', 'premium', 98, '2016-03-26T09:15:50Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$188.11', 'premium', 99, '2016-07-11T23:53:48Z');
+insert into Bills (Amount, PName, MemberID, Payment_Deadline) values ('$101.17', 'private', 100, '2016-02-29T12:28:21Z');

@@ -88,3 +88,13 @@ insert into Memberships (mid, pname, pregidate) values (87, 'regular', '2016-12-
 insert into Memberships (mid, pname, pregidate) values (88, 'premium', '2016-04-05');
 insert into Memberships (mid, pname, pregidate) values (89, 'regular', '2016-05-08');
 insert into Memberships (mid, pname, pregidate) values (90, 'regular', '2016-09-25');
+insert into Memberships (mid, pname, pregidate) values (91, 'private', '2016-08-12');
+insert into Memberships (mid, pname, pregidate) values (92, 'regular', '2016-02-21');
+insert into Memberships (mid, pname, pregidate) values (93, 'regular', '2016-04-08');
+insert into Memberships (mid, pname, pregidate) values (94, 'private', '2016-09-20');
+insert into Memberships (mid, pname, pregidate) values (95, 'regular', '2016-05-01');
+insert into Memberships (mid, pname, pregidate) values (96, 'premium', '2016-02-19');
+insert into Memberships (mid, pname, pregidate) values (97, 'regular', '2016-10-26');
+insert into Memberships (mid, pname, pregidate) values (98, 'regular', '2016-08-14');
+insert into Memberships (mid, pname, pregidate) values (99, 'private', '2016-07-02');
+insert into Memberships (mid, pname, pregidate) values (100, 'premium', '2016-02-12');
