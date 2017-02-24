@@ -1,7 +1,7 @@
 insert into Pays (DatePayment, BillID, MId) values ('2017-02-08T01:18:38Z', 1, 5);
 insert into Pays (DatePayment, BillID, MId) values ('2016-05-06T02:52:48Z', 2, 7);
 insert into Pays (DatePayment, BillID, MId) values ('2016-10-19T16:01:59Z', 3, 33);
-insert into Pays (DatePayment, BillID, MId) values ('2016-02-28T07:21:09Z', 4, 55;
+insert into Pays (DatePayment, BillID, MId) values ('2016-02-28T07:21:09Z', 4, 55);
 insert into Pays (DatePayment, BillID, MId) values ('2016-06-19T00:47:56Z', 5, 12);
 insert into Pays (DatePayment, BillID, MId) values ('2016-12-21T13:05:27Z', 6, 95);
 insert into Pays (DatePayment, BillID, MId) values ('2016-05-30T04:07:28Z', 7, 73);
