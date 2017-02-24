@@ -88,13 +88,3 @@ insert into Pays (DatePayment, BillID, MId) values ('2016-09-21T15:42:24Z', 87, 
 insert into Pays (DatePayment, BillID, MId) values ('2017-01-31T13:09:54Z', 88, 72);
 insert into Pays (DatePayment, BillID, MId) values ('2017-01-11T10:00:08Z', 89, 21);
 insert into Pays (DatePayment, BillID, MId) values ('2016-12-09T20:46:40Z', 90, 71);
-insert into Pays (DatePayment, BillID, MId) values ('2016-04-12T18:37:44Z', 91, 98);
-insert into Pays (DatePayment, BillID, MId) values ('2017-02-13T08:07:00Z', 92, 76);
-insert into Pays (DatePayment, BillID, MId) values ('2017-01-28T21:05:23Z', 93, 31);
-insert into Pays (DatePayment, BillID, MId) values ('2016-07-17T09:21:39Z', 94, 37);
-insert into Pays (DatePayment, BillID, MId) values ('2016-08-29T16:36:25Z', 95, 83);
-insert into Pays (DatePayment, BillID, MId) values ('2016-12-22T13:09:59Z', 96, 78);
-insert into Pays (DatePayment, BillID, MId) values ('2016-03-02T16:06:23Z', 97, 23);
-insert into Pays (DatePayment, BillID, MId) values ('2017-01-01T12:47:45Z', 98, 66);
-insert into Pays (DatePayment, BillID, MId) values ('2016-10-29T16:24:04Z', 99, 25);
-insert into Pays (DatePayment, BillID, MId) values ('2016-07-10T01:52:30Z', 100, 24);
